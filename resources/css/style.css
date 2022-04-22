@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+.header-flexbox-wrapper {
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+}
+
+header nav {
+    display: inline-flex;
+    width: auto;
+}
+
+header nav ul {
+    display: inline-flex;
+    width: auto;
+}
+
+header nav ul li {
+    margin-left: 30px;
+    width: auto;
+    text-decoration: underline;
+    list-style: none;
+    display: inline-block;
+}
+
+.mission-flexbox-wrapper {
+    width: 1200px;
+    height: 700px;
+    background-image: url('../images/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mission-text {
+    background-color: black;
+    width: 1200px;
+}
