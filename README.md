@@ -1,4 +1,4 @@
-# Excursion
+# Tea Cozy
 
 > A web page made with flexbox layout for an imaginary store called Tea Cozy.
 
