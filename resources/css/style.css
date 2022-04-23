@@ -62,7 +62,7 @@ header nav ul li {
     background-image: url('../images/img-mission-background.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: ;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,9 +72,31 @@ header nav ul li {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 80px;
 }
 
 .mission-text {
     background-color: black;
     width: 1200px;
 }
+
+.teas-of-month {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tea-of-month img {
+    height: 200px;
+    width: 300px;
+    padding: 10px 25px;
+}
+
+.tea-of-month h4 {
+    padding-bottom: 20px;
+    margin: 0;
+}
+
