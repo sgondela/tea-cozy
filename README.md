@@ -37,7 +37,7 @@ Then, open the `index.html` file in your web browser.
 
 ## Project Status
 
-Project is: _in progress_
+Project is: _complete_
 
 
 ## Acknowledgements
@@ -46,4 +46,4 @@ This project is an assignment given by Codecademy in the Full-Stack Engineer PRO
 
 I troubleshooted using [this video](https://www.youtube.com/watch?v=fJc18fT4T3s) by Nenad Dabic on Youtube. The video helped me realize that in order to maintain `space-between` to be equal in the `justify-content` attribute in all rows with a wrapped flexbox with a short last row, my `width` property had to be set to `max-width`, so the width would adjust to the shorter last row automatically.
 
-My 
+My significant other helped with positioning in _Locations_ section. Fixed misalignment of background image by setting `background-size` to `1200px 500px` and setting `background-position` to `top center`. Then I didn't have to offset the position of the _Contact_ section by 200px to cover the bottom 200px of the image. This was creating an unwanted 200px extra length to the body, since `height` was set to `auto` and was not offsetting from the `200px` move upward of the _Contacts_ container.
